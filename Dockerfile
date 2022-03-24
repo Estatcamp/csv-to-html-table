@@ -2,6 +2,8 @@ FROM python:3.10
 LABEL author="estat"
 LABEL project="csv-to-html-table"
 
+WORKDIR /usr/src/
+
 COPY css/ css/
 COPY data/ data/
 COPY js/ js/
